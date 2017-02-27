@@ -1,27 +1,28 @@
 # Messenger Platform Sample -- node.js
 
-This project is an example server for Messenger Platform built in Node.js. With this app, you can send it messages and it will echo them back to you. You can also see examples of the different types of Structured Messages. 
+This project is an example server for a Salesforce Bot for the Facebook Messenger Platform built in Node.js. With this app, you can connect to your Salesforce account and query certain data. It should be very simple to extend the functionality of the app to query all data in your org.
 
-It contains the following functionality:
+# Deploy your code to Heroku:
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+This app contains the following functionality:
 
 * Webhook (specifically for Messenger Platform events)
-* Send API 
-* Web Plugins
-* Messenger Platform v1.1 features
+* Send API
+* Storing Salesforce tokens in Postgres on Heroku
+* Retrieving data from Salesforce
 
-Follow the [walk-through](https://developers.facebook.com/docs/messenger-platform/quickstart) to learn about this project in more detail.
+Follow the [walk-through](https://developers.facebook.com/docs/messenger-platform/quickstart) to learn about the Facebook Messenger platform.
 
 ## Setup
 
-Set the values in `config/default.json` before running the sample. Descriptions of each parameter can be found in `app.js`. Alternatively, you can set the corresponding environment variables as defined in `app.js`.
-
-Replace values for `APP_ID` and `PAGE_ID` in `public/index.html`.
+Set the values in `YOUR HEROKU APP` before running the sample. Descriptions of each parameter can be found in `app.json`.
 
 ## Run
 
-You can start the server by running `npm start`. However, the webhook must be at a public URL that the Facebook servers can reach. Therefore, running the server locally on your machine will not work.
+When you click the `Deploy to Heroku button`, your app will be available to setup webhook integration.
 
-You can run this example on a cloud service provider like Heroku, Google Cloud Platform or AWS. Note that webhooks must have a valid SSL certificate, signed by a certificate authority. Read more about setting up SSL for a [Webhook](https://developers.facebook.com/docs/graph-api/webhooks#setup).
+You must populate the `config vars`in your Heroku app for everything to work correctly.
 
 ## Webhook
 
@@ -33,4 +34,4 @@ An example of the "Send to Messenger" plugin and "Message Us" plugin are located
 
 ## License
 
-See the LICENSE file in the root directory of this source tree. Feel free to useand modify the code."# SalesforceBotForFBMessenger" 
+See the LICENSE file in the root directory of this source tree. Feel free to use and modify the code.
