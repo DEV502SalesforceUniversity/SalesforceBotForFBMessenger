@@ -20,7 +20,7 @@ Set the values in `YOUR HEROKU APP` before running the sample. Descriptions of e
 
 ## Run
 
-When you click the `Deploy to Heroku button`, your app will be available to setup webhook integration.
+When you click the `Deploy to Heroku` button, your app will be available to setup webhook integration.
 
 You must populate the `config vars`in your Heroku app for everything to work correctly.
 
