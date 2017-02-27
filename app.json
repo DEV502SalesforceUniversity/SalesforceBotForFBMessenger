@@ -11,27 +11,27 @@
   "env": {
     "MESSENGER_APP_SECRET": {
       "description": "In your Facebook app, click Settings | Show. Type in your password and click Submit. Use that value here.",
-      "value": ""
+      "value": "Change me"
     },
     "MESSENGER_PAGE_ACCESS_TOKEN": {
       "description": "Click Messenger under Products in your Facebook app. Scroll down to Token Generation. Then, under Page select your Page. In the popup, click Continue as yourUsername | OK.  Click the Page Access Token to copy it and paste it here.",
-      "value": ""
+      "value": "Change me"
     },
     "MESSENGER_VALIDATION_TOKEN": {
       "description": "This is a developer-defined value. Use something like - UCVeriToken1. This will be used when you setup webhooks.",
-      "value": ""
+      "value": "Change me"
     },
     "SERVER_URL": {
       "description": "This will be in the format https://yourAppName.herokuapp.com/. Be sure to use your own app name.",
-      "value": ""
+      "value": "Change me"
     },
     "CONSUMER_KEY": {
       "description": "Use your Salesforce Connected App's consumer key.",
-      "value": ""
+      "value": "Change me"
     },
     "CONSUMER_SECRET": {
       "description": "Use your Salesforce Connected App's consumer secret.",
-      "value": ""
+      "value": "Change me"
     },
   },
   "addons": [
